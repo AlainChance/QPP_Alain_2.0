@@ -1,0 +1,35 @@
+
+Set n, possible number of quantum states = 2**num_of_qubits: 16
+
+parameters - Backend
+<qiskit_ibm_runtime.fake_provider.backends.manila.fake_manila.FakeManilaV2 object at 0x7f11c5e6c950>
+
+parameters - Secret key file name: Secret_key_4-qubits_Hello.txt
+
+parameters - Secret key created and stored into file:  110010000001011110110111100001000100001111010111100011100001100111000000100111101011110010101011111011100111011111001100100101010110000010001101000100111000101100100101111101111011010000101011001101110110100111011010001110000110001101100100010100101110110101100010100101111100001000100001110000101010100001011101110001100011111000010000110011111101110010010100010100110011000011110101
+
+parameters - Set bits_in_block = num_of_bits / num_of_perm_in_pad: 64
+
+parameters - Length of key chunks (bits_in_block/num_of_qubits): 16
+QPP_param_file: QPP_param_4-qubits_V0_Christmas_tree.json
+plaintext_file: Hello.txt
+trace: 1
+job_trigger: 10000
+print_trigger: 10000
+draw_circuit: True
+do_sampler: True
+version: V0
+
+service: <QiskitRuntimeService>
+backend: <qiskit_ibm_runtime.fake_provider.backends.manila.fake_manila.FakeManilaV2 object at 0x7f11c5e6c950>
+opt_level, optimisation level for transpile: 2
+resilience_level: 1
+
+None
+
+n, possible number of quantum states: 16
+num_of_bits, classical key length (bit): 384
+bits_in_block: 64
+num_of_qubits: 4
+num_of_perm_in_pad, number of permutations gates in pad: 6
+pad_selection_key_size: 6
